@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 16px;
+    border-bottom: 1px solid black;
+}
+
+li:hover {
+    background-color: deeppink;
+}
+
+.navlinks {
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.imagebanner {
+    background-image: url("images/imagebanner.jpg");
+    padding: 100px 0;
+    background-size: cover;
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    background-color: black;
+}
+
+.introduction {
+    text-align: center;
+    color: deeppink;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.ourbakery {
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+    ul {
+        text-align: right;
+    }
+
+    li {
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid black;
+    }
+
+    .goods {
+        width: 33%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
